@@ -3,11 +3,13 @@ import time
 import pprint
 
 
+
+
 # autenticar nuestras keys
-consumer_key = 'tNr06x7M0I1pDXERtp5EyQ2Zh'
-consumer_secret = 'XmSQDfJ40PSGRVUGB954yWr8x0bXb25ethLEL6bMHnruwpvMWC'
-access_token = '1145626590-Cf78Iq0Nbldb48yYPH2HKxhioMzuyvyTJB7Zo6b'
-access_token_secret = 'pMvUM4iIcHccxxxzklT7CUQSWygVFah54armf8RhJqfex'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
